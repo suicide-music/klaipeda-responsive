@@ -59,8 +59,7 @@ footer {
 }
 
 .column-initial-city-info {
-  width: 536px;
-  height: 312px;
+  max-width: 500px;
 }
 
 .city-info {
@@ -169,5 +168,8 @@ footer {
   }
   footer {
     grid-template-columns: 1fr;
+  }
+  .initial-info-img {
+    width: 400px;
   }
 }
