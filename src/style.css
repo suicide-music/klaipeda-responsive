@@ -86,6 +86,7 @@ footer {
 
 .places-to-visit {
   background-color: #f8f8f8;
+  padding-top: 50px;
 }
 
 .gallery-img {
@@ -104,9 +105,29 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+  margin: 0 auto;
 }
 
 .gallery-container {
   padding-bottom: 50px;
-  margin: 135px;
+}
+
+.img-place {
+  width: 185px;
+  height: 185px;
+  object-fit: cover;
+}
+
+.place {
+  background-color: white;
+  max-width: 370px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.places {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 20px;
 }
