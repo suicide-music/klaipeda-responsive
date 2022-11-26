@@ -131,3 +131,13 @@ footer {
   gap: 20px;
   padding-bottom: 20px;
 }
+
+@media (max-width: 900px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  .gallery-img {
+    width: 150px;
+    height: 150px;
+  }
+}
