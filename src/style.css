@@ -26,3 +26,36 @@ header h2 {
 .header-container {
   padding: 286px 290px;
 }
+
+.row-initial-city-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 170px;
+}
+
+.column-initial-city-info {
+  width: 536px;
+  height: 312px;
+}
+
+.city-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #272044;
+  opacity: 0.7;
+  align-self: stretch;
+}
+.subheader {
+  color: #272044;
+  opacity: 0.3;
+  letter-spacing: 5px;
+}
+
+.header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
