@@ -1,15 +1,28 @@
 header {
-  background-image: url("../img/Klaipeda-Old-Town.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/Klaipeda-Old-Town.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
+  color: white;
 }
 
 body {
-  font-family: "Abel", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-header div {
-  font-size: 24px;
+header h1 {
+  font-weight: 900;
+  font-size: 96px;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: -50px;
+}
+
+.header-container {
+  padding: 286px 290px;
 }
