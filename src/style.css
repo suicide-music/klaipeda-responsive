@@ -23,6 +23,23 @@ header h2 {
   font-size: 40px;
   margin-top: -50px;
 }
+a {
+  color: #ffffff;
+  display: block;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  color: white;
+  padding: 40px;
+}
 
 .container {
   background-color: white;
@@ -76,10 +93,20 @@ header h2 {
   width: 370px;
   height: 370px;
   margin: 0 auto;
+  transition: 150ms ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.5);
 }
 
 .gallery-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+}
+
+.gallery-container {
+  padding-bottom: 50px;
+  margin: 135px;
 }
