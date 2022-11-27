@@ -6,12 +6,13 @@ header {
   background-position: center;
   text-align: center;
   color: white;
-  max-width: 100%;
+  width: 100%;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: #272044;
+  max-width: 100%;
 }
 
 header h1 {
@@ -60,6 +61,10 @@ footer {
 
 .column-initial-city-info {
   max-width: 500px;
+}
+.initial-info-img {
+  width: 100%;
+  height: auto;
 }
 
 .city-info {
@@ -157,6 +162,8 @@ footer {
   }
   .row-initial-city-info {
     grid-template-columns: 1fr;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .img-place {
