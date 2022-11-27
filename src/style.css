@@ -30,6 +30,10 @@ a {
   display: block;
 }
 
+.footer {
+  color: #ffffff;
+  opacity: 1;
+}
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../img/footer.jpg");
@@ -41,6 +45,11 @@ footer {
   gap: 15px;
   color: white;
   padding: 40px;
+}
+
+p {
+  color: #272044;
+  opacity: 0.7;
 }
 
 .container {
