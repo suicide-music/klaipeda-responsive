@@ -162,10 +162,21 @@ footer {
   }
   .row-initial-city-info {
     grid-template-columns: 1fr;
+    padding: 10px;
     margin: 0 auto;
+  }
+
+  .initial-info-img {
+    margin: 0 auto;
+  }
+
+  .column-initial-city-info {
     text-align: center;
   }
 
+  .header-container {
+    padding: 0;
+  }
   .img-place {
     display: none;
   }
@@ -175,8 +186,5 @@ footer {
   }
   footer {
     grid-template-columns: 1fr;
-  }
-  .initial-info-img {
-    width: 400px;
   }
 }
