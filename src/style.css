@@ -65,6 +65,7 @@ footer {
 .initial-info-img {
   width: 100%;
   height: auto;
+  padding: 29px 15px;
 }
 
 .city-info {
@@ -168,10 +169,12 @@ footer {
 
   .initial-info-img {
     margin: 0 auto;
+    padding: 0;
   }
 
   .column-initial-city-info {
     text-align: center;
+    margin: 0 auto;
   }
 
   .header-container {
